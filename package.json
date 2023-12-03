@@ -1,0 +1,27 @@
+{
+  "name": "goit-node-1",
+  "version": "1.0.0",
+  "description": "study project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaofAmber/goit-node-1.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Anna Boichuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaofAmber/goit-node-1/issues"
+  },
+  "homepage": "https://github.com/AnnaofAmber/goit-node-1#readme",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
