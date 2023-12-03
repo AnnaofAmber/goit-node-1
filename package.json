@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/AnnaofAmber/goit-node-1#readme",
   "dependencies": {
-    "nanoid": "^5.0.4",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.0.2"
   }
 }
