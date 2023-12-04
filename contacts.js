@@ -10,7 +10,7 @@ return JSON.parse(data);
   
  async function getContactById(contactId) {
 const contacts = await listContacts();
-const contact = contacts.filter(({id}) => contactId === id)
+const contact = contacts.find(({id}) => contactId === id)
 return contact || null
   }
   
